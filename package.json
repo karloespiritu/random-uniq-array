@@ -1,6 +1,6 @@
 {
   "name": "random-uniq-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Select a unique element from an array successively",
   "main": "index.js",
   "scripts": {
@@ -18,14 +18,23 @@
     "email": "karloespiritu@gmail.com",
     "url": "http://karloespiritu.com"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^3.1.1"
+  "bugs": {
+    "url": "https://github.com/karloespiritu/random-uniq-array/issues"
   },
+  "homepage": "https://github.com/karloespiritu/random-uniq-array#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karloespiritu/random-uniq-array.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "random-uniq": "^1.0.0"
   },
   "devDependencies": {
+    "eslint": "^3.1.1",
     "tape": "^4.6.0"
+  },
+  "engines": {
+      "node": ">= 5.6.0"
   }
 }
